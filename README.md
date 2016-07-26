@@ -6,3 +6,5 @@ some helpful sites for terminal customization:
 http://stayradiated.github.io/termcolors-web/
 
 http://terminal.sexy/
+
+![Alt text](/?raw=true "Screenshot 26.07.2016")
