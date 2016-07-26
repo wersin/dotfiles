@@ -3,8 +3,8 @@ these are some of the dotfiles for my setup i am currently using, as for now (25
 
 some helpful sites for terminal customization:
 
-http://stayradiated.github.io/termcolors-web/
+[term colors](http://stayradiated.github.io/termcolors-web/)
 
-http://terminal.sexy/
+[sexy terminal](http://terminal.sexy/)
 
 ![Alt Tag](https://github.com/wersin/dotfiles/blob/master/scrot.png "screenshot 26.07.2016")
