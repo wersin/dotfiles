@@ -6,5 +6,6 @@ some helpful sites for terminal customization:
 [term colors](http://stayradiated.github.io/termcolors-web/)
 
 [sexy terminal](http://terminal.sexy/)
+[.bashrc made easy](http://bashrcgenerator.com/)
 
 ![Alt Tag](https://github.com/wersin/dotfiles/blob/master/scrot.png "screenshot 26.07.2016")
