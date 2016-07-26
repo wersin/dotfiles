@@ -7,4 +7,4 @@ http://stayradiated.github.io/termcolors-web/
 
 http://terminal.sexy/
 
-![Alt text](/?raw=true "Screenshot 26.07.2016")
+![Alt Tag](https://github.com/wersin/dotfiles/blob/master/scrot.png "screenshot 26.07.2016")
