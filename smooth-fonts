@@ -1,0 +1,14 @@
+enable smooth font rendering in arch-linux
+when installing gnome the .Xresources file may be overwritten and antialiasing disabled
+thus add (or edit) following in .Xresources
+
+Xft.lcdfilter: lcddefault
+Xft.antialias: true
+Xft.autohint: 0
+Xft.hinting: true
+Xft.hintstyle: hintslight
+Xft.rgba: rgb
+Xft.dpi: 96
+
+the run: xrdb -merge ~/.Xresources
+or add that line to startup script of WM
