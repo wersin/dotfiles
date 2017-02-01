@@ -11,4 +11,4 @@ some helpful sites for terminal customization:
 
 [.bashrc made easy](http://bashrcgenerator.com/)
 
-![Alt Tag](https://github.com/wersin/dotfiles/blob/master/scrot.png "screenshot 26.07.2016")
+![Alt Tag](https://github.com/wersin/dotfiles/blob/master/scrot.png "screenshot 02.02.2017")
