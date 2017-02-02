@@ -77,7 +77,7 @@ tray-padding = 2
 [module/cmus]
 type = custom/script
 label = 
-exec = zscroll "$(cat /home/p3pt/.tmp/now-playing)"
+exec = zscroll "$(cat /home/mark/.tmp/now-playing)"
 tail = true
 
 [module/xwindow]
