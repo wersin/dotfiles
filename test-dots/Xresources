@@ -1,0 +1,87 @@
+!urxvt*font:             xft:Monaco:bold:pixelsize=11
+urxvt*font:             xft:Consolas:bold:pixelsize=12
+!urxvt*font:             xft:Terminus:bold:pixelsize=10
+!URxvt.letterSpace:      -1
+urxvt*termName:         rxvt-unicode-256color
+urxvt*scrollBar:        false
+urxvt*perl-lib:         /usr/lib/urxvt/perl/
+urxvt*perl-ext-common:  default,matcher
+!urxvt*urlLauncher:      /opt/mozilla/bin/google-chrome-stable
+urxvt*url-launcher:      /usr/bin/google-chrome-stable
+urxvt*matcher.button:   1
+urxvt*matcher.pattern.1:   \\bwww\\.[\\w-]+\\.[\\w./?&@#-]*[\\w/-]
+!urxvt*fading:           50
+!urxvt*fadeColor:        #000000
+urxvt.internalBorder:   24
+
+Xft*dpi:                96
+Xft*antialias:          true
+Xft*hinting:            full
+
+!urxvt*background:       rgba:0000/0000/0000/cccc
+!urxvt*depth: 32
+!urxvt*background: rgba:0000/0000/0200/c800
+
+!urxvt.transparent:   true
+!urxvt.tintColor:     black
+urxvt.shading:       12
+!defaults
+!urxvt*background:       #ffffff
+!urxvt*foreground:       #cccccc
+!*foreground: #D7D0C7
+!*background: #FFFFFF
+!*background: #ffffff
+!urxvt*background: #ffffff
+
+!URxvt*borderColor:        #ffffff
+!URxvt*colorBD:            #ffffff
+URxvt*colorBD:            #080808
+
+
+!new stuff
+
+URxvt*borderColor:        #3c3b37
+!urxvt*background:   #021b21
+!!*fading: 40
+*fadeColor: #002b36
+!*cursorColor: #93a1a1
+*pointerColorBackground: #586e75
+*pointerColorForeground: #93a1a1
+
+! special
+urxvt.foreground:   #93a1a1
+urxvt.background:   #3c3b37
+urxvt.cursorColor:  #93a1a1
+
+! black
+*.color0:       #5f5f5f
+*.color8:       #828282
+
+! red
+*.color1:       #d96468
+*.color9:       #d98f93
+
+! green
+*.color2:       #a2d964
+*.color10:      #b8d98f
+
+! yellow
+*.color3:       #d9c964
+*.color11:      #d9cf8f
+
+! blue
+*.color4:       #64a2d9
+*.color12:      #8f99d9
+
+! magenta
+*.color5:       #9a64d9
+*.color13:      #b08fd9
+
+! cyan
+*.color6:       #64d9d5
+*.color14:      #8fd9d5
+
+! white
+*.color7:       #989898
+*.color15:      #c5c5c5
+
