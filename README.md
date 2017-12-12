@@ -1,5 +1,5 @@
 # dotfiles
-these are some of the dotfiles for my setup i am currently using, as for now (02.02.2017)
+these are some of the dotfiles for my setup i am currently using, as for now (12.12.2017)
 
 some helpful sites for terminal customization:
 
@@ -9,4 +9,4 @@ some helpful sites for terminal customization:
 
 [.bashrc made easy](http://bashrcgenerator.com/)
 
-![Alt Tag](https://github.com/wersin/dotfiles/blob/master/scrot.png "screenshot 02.02.2017")
+![Alt Tag](https://github.com/wersin/dotfiles/blob/master/scrot.png "screenshot 12.12.2017")
