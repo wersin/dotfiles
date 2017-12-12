@@ -21,7 +21,11 @@ set nocompatible
 filetype indent plugin on
  
 " Enable syntax highlighting
+set t_Co=256
+"set t_AB=^[[48;5;%dm
+"set t_AF=^[[38;5;%dm
 syntax on
+colorscheme termscheme
  
  
 "------------------------------------------------------------
@@ -165,7 +169,8 @@ nnoremap <C-L> :nohl<CR><C-L>
 
 set cursorline
 
-:hi CursorLine   cterm=NONE ctermbg=darkred "ctermfg=white guibg=darkred guifg=white
+:hi CursorLine   cterm=NONE ctermbg=black "ctermfg=white guibg=darkred guifg=white
+":hi CursorLine   cterm=NONE ctermbg=black "ctermfg=white guibg=darkred guifg=white
 ":hi CursorColumn cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
 :nnoremap <Leader>c :set cursorline! cursorcolumn!<CR>
 
@@ -175,7 +180,8 @@ set cursorline
 " highlighting of end lines and invisible symbols
 set list
 " Enter the Pilcrow mark by pressing Ctrl-k then PI
-:set list listchars=tab:>-,eol:¶
+"set list listchars=tab:>-,eol:¶
+set listchars=tab:▸\ ,trail:·
 
 ":highlight ExtraWhitespace cterm=NONE ctermbg=black ctermfg=white guibg=red
 " The following alternative may be less obtrusive.
@@ -190,3 +196,10 @@ execute pathogen#infect()
 let g:livepreview_previewer = 'qpdfview'
 map <f2> :w<cr><leader>ll
 let delimitMate_expand_cr=1
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+
+map <F10> :bnext<CR>
+map <F9> :bprev<CR>
