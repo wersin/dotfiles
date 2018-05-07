@@ -164,10 +164,10 @@ bindsym $mod+d exec rofi -show run -fg "#FFFFFF" -bg "#14121b" -hlfg "#FFFFFF" -
 #exec --no-startup-id feh --bg-scale /home/mark/pictures/wallpapers/space-bad.jpg
 #exec --no-startup-id feh --bg-scale /home/mark/pictures/wallpapers/weYSXtX.jpg
 #gaps 
-gaps inner 10
-gaps outer 5
+#gaps inner 10
+#gaps outer 5
 #smart_gaps on
-smart_borders on
+#smart_borders on
 
 #my custom keys
 bindsym XF86AudioRaiseVolume exec amixer set Master 5%+ && killall -USR1 i3status
@@ -240,13 +240,16 @@ exec --no-startup-id redshift -t3400:3400 -l55:11
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 #exec --no-startup-id polybar topbar
 #exec --no-startup-id polybar -c /home/mark/.config/polybar/topbar.ini topbar 
-exec --no-startup-id xset b off
 exec --no-startup-id xset s off
+exec --no-startup-id xset -b
 
 # force floating for all new windows
 #for_window [class="[.]*"] floating enable
 for_window [class="Webcam*"] floating enable, border normal
+for_window [class="Thunar*"] floating enable, border normal
+for_window [class="gwenview*"] floating enable, border normal
+
 bindsym $mod+m move workspace to output right
 bindsym $mod+n move workspace to output left
-
+bindsym $mod+Tab exec skippy-xd
 
