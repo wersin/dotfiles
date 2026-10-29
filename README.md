@@ -26,3 +26,11 @@ for f in CLAUDE.md settings.json statusline.sh agents/escalate.md; do
   ln -sf "$PWD/claude/$f" ~/.claude/$f
 done
 ```
+
+## tmux
+
+`dots/.tmux.conf` – prefix `C-a`, Solarized colours, mouse on, splits keep the current path, copy/paste via `pbcopy`/`pbpaste` (macOS).
+
+```sh
+ln -sf "$PWD/dots/.tmux.conf" ~/.tmux.conf
+```
